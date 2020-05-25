@@ -100,7 +100,7 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate, UIPickerView
         
         bannerView.adUnitID = "ca-app-pub-4857948317177675/1514947091"
         bannerView.rootViewController = self
-        bannerView.load(GADRequest())
+//        bannerView.load(GADRequest())
         
         
         tableView.tableFooterView = UIView()
@@ -449,11 +449,12 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate, UIPickerView
     @IBAction func commandsButtonPressed(_ sender: UIButton) {
         
         let commandsString = """
-Say "search" after the item name to search
-Say "reset" to start over
-Say "cancel" to end voice recognition
+"search" after the item name to search
+"reset" to start over
+"cancel" to end voice recognition
 
 Try to be more specific or speak clearly if you can't find what you are looking for.
+
 Thank you for your support!
 """
         
