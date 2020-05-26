@@ -4,9 +4,6 @@
 
 [<img src = "Images/appstore.png" height="40">](https://apps.apple.com/ca/app/tarkov-market-pal/id1513275400)
 
-
-## Images
-
 <img src = "Images/TARKOV3.png" height="350"> <img src = "Images/Home%20screen.png" width="250"> <img src = "Images/Language%20support.png" width="250"> 
 
 ## Features
