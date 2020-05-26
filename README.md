@@ -22,4 +22,4 @@
 ## Disclaimer
 This app is not sponsored, endorsed, or created by Battlestate Games. Any of the trademarks, service marks, collective marks, design rights, personality rights, or similar rights that are mentioned, used, or cited in an Escape from Tarkov Wiki article are the property of their respective owners.
 
-
+API provided by [Tarkov-Market](https://tarkov-market.com/) (No affiliation)
