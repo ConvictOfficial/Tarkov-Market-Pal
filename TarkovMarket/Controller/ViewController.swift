@@ -15,38 +15,8 @@ import Speech
 import GoogleMobileAds
 
 
-struct Item : Codable {
-    let name : String
-    let uid : String
-    let price : Int
-    let updated : String
-    let imgBig : String
-    let currency : String
-    let slots : Int
-    let diff24h : Double
-    let diff7days : Double
-    let traderPrice : Int
-    let traderName : String
-    
-    
-    enum CodingKeys : String, CodingKey {
-        case name 
-        case uid
-        case price
-        case updated
-        case imgBig 
-        case currency = "traderPriceCur"
-        case slots
-        case diff24h
-        case diff7days
-        case traderPrice
-        case traderName
-        
-    }
-}
 
 class ViewController: UIViewController, SFSpeechRecognizerDelegate, UIPickerViewDelegate, UIPickerViewDataSource, UIGestureRecognizerDelegate {
-    
     
     
     private let speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: "en-US"))!
@@ -100,7 +70,7 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate, UIPickerView
         
         bannerView.adUnitID = "ca-app-pub-4857948317177675/1514947091"
         bannerView.rootViewController = self
-//        bannerView.load(GADRequest())
+        bannerView.load(GADRequest())
         
         
         tableView.tableFooterView = UIView()

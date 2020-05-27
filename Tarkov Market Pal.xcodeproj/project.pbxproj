@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2149CC56246E32DD004440EA /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = 2149CC55246E32DD004440EA /* items.json */; };
+		217F5DC1247DF208006C8BBB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217F5DC0247DF208006C8BBB /* Item.swift */; };
 		21C0BDB9241592BE000AF871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C0BDB8241592BE000AF871 /* AppDelegate.swift */; };
 		21C0BDBB241592BE000AF871 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C0BDBA241592BE000AF871 /* SceneDelegate.swift */; };
 		21C0BDBD241592BE000AF871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C0BDBC241592BE000AF871 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		114229F523F23054EC74EF85 /* Pods-Tarkov Market Pal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tarkov Market Pal.release.xcconfig"; path = "Target Support Files/Pods-Tarkov Market Pal/Pods-Tarkov Market Pal.release.xcconfig"; sourceTree = "<group>"; };
 		2149CC55246E32DD004440EA /* items.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		217F5DC0247DF208006C8BBB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		21C0BDB5241592BE000AF871 /* Tarkov Market Pal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tarkov Market Pal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C0BDB8241592BE000AF871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21C0BDBA241592BE000AF871 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				2149CC55246E32DD004440EA /* items.json */,
+				217F5DC0247DF208006C8BBB /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				217F5DC1247DF208006C8BBB /* Item.swift in Sources */,
 				21C0BDCD241A34B2000AF871 /* ItemTableViewCell.swift in Sources */,
 				21C0BDBD241592BE000AF871 /* ViewController.swift in Sources */,
 				21C0BDB9241592BE000AF871 /* AppDelegate.swift in Sources */,
@@ -390,12 +394,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = 475GYSBZB3;
 				INFOPLIST_FILE = TarkovMarket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.williamchew.TarkovMarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -409,12 +415,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = 475GYSBZB3;
 				INFOPLIST_FILE = TarkovMarket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.williamchew.TarkovMarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
